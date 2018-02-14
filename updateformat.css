@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+select{
+    width: 80%;
+    border: none;
+}
+
+option{
+    font-size: 50%;
+}

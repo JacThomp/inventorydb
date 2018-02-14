@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+table, th, td{
+    border: 1px solid black;
+    text-align: center;
+    font-size: 115%;
+}
+
+table{
+    display: block;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 0 0 5%;
+    border: collapse;
+    overflow: scroll;
+}
+
+tr{
+    height: 15px;
+}
+
+th{
+    font-style: bold;
+    background-color: #3000cc;
+    color: #000;
+}
+
+tr:nth-child(odd){
+    background-color: #666666;
+    color: #333333;
+}
+
+td{
+    max-height: 50px;
+    max-width: 265px;
+    overflow-x: scroll;
+}
+
+#outer{
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 500px;
+}

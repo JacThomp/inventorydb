@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+table, th, td{
+    border: 1px solid black;
+    text-align: center;
+    font-size: 115%;
+}
+
+table{
+    display: block;
+    width: 90%;
+    max-height: 400px;
+    max-width: 1150px;
+    margin: 0 0 0 5%;
+    border: collapse;
+    overflow: scroll;
+    table-layout: fixed;
+}
+
+tr{
+    max-height: 15px;
+}
+
+th{
+    font-style: bold;
+    background-color: #3000cc;
+    color: #000;
+}
+td{
+    max-height: 50px;
+    max-width: 263px;
+    overflow-x: scroll;
+}
+
+tr:nth-child(odd){
+    background-color: #666666;
+}
+
+select, option, select option{
+    font-size: 115%;
+}
+
+#outer{
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 500px;
+}
